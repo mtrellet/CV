@@ -1,0 +1,101 @@
+% Exemple de CV utilisant la classe moderncv
+% Style casual en orange
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.1cm, bottom=2.1cm, left=1.5cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\firstname{Mikael}
+\familyname{Trellet}
+\title{phD student in Bioinformatics engineering}              
+\address{7 rue marguerite}{91200 Athis-Mons}    
+\email{mikael.trellet@gmail.com}                      
+\homepage{https://perso.limsi.fr/trellet/}
+\mobile{06 50 60 71 72} 
+\extrainfo{27 years old -- driver licence}
+\begin{document}
+\maketitle
+
+\section{Work experience\newline{}}
+\cventry{Sept. 2011 -- Sept. 2012}{Research/Educational assistant}{Computational and Structural Biology group}{Utrecht university - NETHERLANDS}{}{
+Under Pr. Alexandre Bonvin supervision
+	\begin{itemize}
+		\item Research project for protein-peptide docking with HADDOCK software %\cite{trellet2013unified}
+		\item European grid-computing administration in the WeNMR project
+		\item New clustering method for protein-protein complexes assessment %\cite{rodrigues2012clustering}
+		\newline{}
+	\end{itemize}
+}
+\cventry{June 2011 -- Aug. 2011}{Developer}{}{Google Summer of Code 2011}{}{Project under Biopython initiative. Interface analysis module leading to new features in the biopython module for protein-protein interfaces analysis.\\
+\url{http://biopython.org/wiki/GSoC2011_mtrellet}\newline{}}
+
+\cventry{Aug. 2011 -- Dec. 2011}{Developer}{AROBAS unit, IBISC/CNRS}{Evry university - FRANCE}{}{
+Under Pr. Fariza Tahi supervision
+	Development of TFold for the pseudoknot detection in RNA (~5600 lines ; JAVA) and web-portal creation to port the software.\\ %\cite{tahi2012evryrna}\\
+\url{http://tfold.ibisc.univ-evry.fr/TFold/}\newline{}
+}
+
+\section{Academic\newline{}}
+
+\subsection{Education}
+\cventry{2009 -- 2011}{Master's degree}{Evry university - FRANCE}{}{}{Biology and Informatics engineering}
+\cventry{2006 -- 2009}{Bachelor's degree}{Evry university - FRANCE}{}{}{Biology, specializing in bioinformatics}
+\cventry{2007 -- 2010}{Baccalauréat}{Mennecy Highschool - FRANCE}{}{}{Science, specializing in Physics/Chemistry\newline{}}
+
+\subsection{Research}
+\cventry{Oct. 2012 -- Today}{PhD student}{VENISE group, LIMSI/CNRS}{Paris-Sud university - FRANCE}{}{Visualization and analyses of molecular simulation in virtual environments. 
+\begin{itemize}
+	\item Visualization of molecular structures with stereoimages based on depthmaps/textures smartphones and tablets
+	\item Content-based navigation of molecules in virtual environments %\cite{trellet2014content}
+	\item High-level representation of structural biology for Visual Analytics\newline{}
+\end{itemize}}
+
+\cventry{Jan. 2011 -- July 2011}{Master student}{Computational and Structural Biology group}{Utrecht university - NETHERLANDS}{}{Under Pr. Alexandre Bonvin supervision\\
+Docking of protein-peptide complexes using HADDOCK approach + Development of post-analysis module for HADDOCK web server (~1500 lines ; Python, Bash and R)
+\newline{}}
+
+\cventry{June 2010 -- Aug. 2010}{Master student}{AROBAS unit, IBISC/CNRS}{Evry university - FRANCE}{}{Under Pr. Fariza Tahi supervision\\
+Improvement of TFold for the prediction of RNA pseudoknots
+\newline{}}
+
+\cventry{June 2009 -- Aug. 2009}{Master student}{Structural Bioinformatics research group}{Institut Pasteur, Paris - FRANCE}{}{Under Pr. Michael Nilges supervision\\
+Homology modelling of pilin, structural subunit of N. Meningitidis and N. Gonorrhoeae pili %\cite{chamot2011posttranslational}
+\newline{}}
+
+\section{Computer skills}
+\cvitem{Bioinfo tools}{PyMol, VMD, Biopython, GROMACS}
+\cvitem{Game Engine}{Unity3D, Blender}
+\cvitem{Langages}{C/C++/C\#, Python, Bash, Javascript, Java, HTML, PHP, SQL, SPARQL, RDF(S), OWL}
+\cvitem{Database}{MySQL, Oracle}
+\cvitem{OS}{MacOSX 10.5-10.10, Linux (Ubuntu,Debian)}
+\cvitem{Administration}{Nagios, Virtuoso, UMD (from EGI)}
+\cvitem{Network}{Websocket, Protocole IP/UDP}
+\cvitem{Softwares}{Microsoft office, Open Office, Adobe Suite (Photoshop, Illustrator, Dreamweaver)}
+
+\section{Languages}
+\cvlanguage{Français}{Native}{}
+\cvlanguage{Anglais}{Fluent}{}
+\cvlanguage{Allemand}{School level}{}
+
+
+%\cvcomputer{Langages}{(X)HTML, PHP, CSS, PL/SQL, C/C++, Java, Bash}{}{}
+%\cvcomputer{Base de données}{MySQL, Oracle}{CMS}{Wordpress, Symfony2 (notions)}
+%\cvcomputer{Analyse}{Merise, UML, Design Patterns}{}{}
+%\cvcomputer{Systèmes}{Windows XP/Seven/Server 2003/Server 2008, Linux (Debian)}{}{}
+%\cvcomputer{Administration}{Apache2, BIND, Postfix, Fail2ban, Proxmox (openVZ), Iptables,Nagios}{}{}
+
+\section{Other}
+\cvitem{Tutoring}{Math, Biology, Physics and Chemistry for hischool students (4 years)}
+\cvitem{Sport}{Badminton (FFBA and FFSU for 10 years) – France Championship in 2009 with the Evry university team as captain / Jogging / Tennis / Squash}
+\cvitem{Scouts}{Animator for 5 years and Director for 3 years}
+\cvitem{Humanitarian}{2-years project to build 3 classrooms in Madagaskira - summer 2007}
+
+% \bibliographystyle{alpha}
+% \bibliography{publications}
+%\cvitem{Plongée}{Diplôme de niveau 1}
+
+\end{document}
