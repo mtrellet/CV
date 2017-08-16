@@ -1,0 +1,93 @@
+%& -job-name=cv_publis2
+
+% Exemple de CV utilisant la classe moderncv
+% Style casual en orange
+% Article complet : http://blog.madrzejewski.com/creer-cv-elegant-latex-moderncv/
+
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}                
+\usepackage[utf8]{inputenc}
+\usepackage[top=1.1cm, bottom=2.1cm, left=1.5cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.5cm}
+
+\firstname{Mikael}
+\familyname{Trellet}
+\title{Postdoc researcher @ Utrecht University\newline Molecular Modeling and VR Engineering}              
+\address{Godfried van Seijstlaan, 27 E7}{3703 BR ZEIST}    
+\email{m.e.trellet@uu.nl}                      
+\homepage{http://perso.limsi.fr/trellet/index.html}
+\mobile{+31 6 80 12 66 20} 
+\extrainfo{27 years old -- driver licence}
+\begin{document}
+\maketitle
+
+
+\section{Work experience\newline{}}
+\cventry{Sept. 2011 -- Sept. 2012}{Research/Educational assistant}{Computational and Structural Biology group}{Utrecht university - NETHERLANDS}{}{
+Under Pr. Alexandre Bonvin supervision
+	\begin{itemize}
+		\item Research project for protein-peptide docking with HADDOCK software \href{http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0058769}{\color{blue}Article}%\cite{trellet2013unified}
+		\item European grid-computing administration in the WeNMR project
+		\item New clustering method for protein-protein complexes assessment \href{https://www.ncbi.nlm.nih.gov/pubmed/22489062}{\color{blue}Article}%\cite{rodrigues2012clustering}
+		\newline{}
+	\end{itemize}
+}
+% \cventry{June 2011 -- Aug. 2011}{Developer}{}{Google Summer of Code 2011}{}{Project under Biopython initiative. Interface analysis module leading to new features in the biopython module for protein-protein interfaces analysis.\\
+% \url{http://biopython.org/wiki/GSoC2011_mtrellet}\newline{}}
+
+% \cventry{Aug. 2011 -- Dec. 2011}{Developer}{AROBAS unit, IBISC/CNRS}{Evry university - FRANCE}{}{
+% Under Pr. Fariza Tahi supervision
+% 	Development of TFold for the pseudoknot detection in RNA (~5600 lines ; JAVA) and web-portal creation to port the software.\\ %\cite{tahi2012evryrna}\\
+% \url{http://tfold.ibisc.univ-evry.fr/TFold/}\newline{}
+% }
+
+\section{Academic\newline{}}
+
+\subsection{Education}
+\cventry{2012 -- 2015}{PhD degree}{Paris-Saclay University - FRANCE}{}{}{Informatics}
+\cventry{2009 -- 2011}{Master's degree}{Evry university - FRANCE}{}{}{Biology and Informatics engineering}
+\cventry{2006 -- 2009}{Bachelor's degree}{Evry university - FRANCE}{}{}{Biology, specializing in bioinformatics}
+\cventry{2007 -- 2010}{Highschool diploma}{Mennecy Highschool - FRANCE}{}{}{Science, specializing in Physics/Chemistry\newline{}}
+
+\subsection{Research}
+\cventry{Oct. 2012 -- Dec. 2015}{PhD student}{VENISE group, LIMSI/CNRS}{Paris-Saclay University - FRANCE}{}{Exploration and Analyses of Molecular Data in Virtual Environments. \href{http://www.theses.fr/2015SACLS262}{\color{blue}Thèse}
+\begin{itemize}
+	\item Visualization of molecular structures with stereoimages based on depthmaps/textures smartphones and tablets
+	\item Content-based navigation of molecules in virtual environments %\cite{trellet2014content}
+	\item Semantic definition of structural biology for the use of Visual Analytics\newline{}
+\end{itemize}}
+
+\cventry{Jan. 2011 -- July 2011}{Master student}{Computational and Structural Biology group}{Utrecht university - NETHERLANDS}{}{Under Pr. Alexandre Bonvin supervision\\
+Docking of protein-peptide complexes using HADDOCK approach + Development of post-analysis module for HADDOCK web server (~1500 lines ; Python, Bash and R)
+\newline{}}
+
+\cventry{June 2010 -- Aug. 2010}{Master student}{AROBAS unit, IBISC/CNRS}{Evry university - FRANCE}{}{Under Pr. Fariza Tahi supervision\\
+Improvement of TFold for the prediction of RNA pseudoknots
+\newline{}}
+
+\cventry{June 2009 -- Aug. 2009}{Master student}{Structural Bioinformatics research group}{Institut Pasteur, Paris - FRANCE}{}{Under Pr. Michael Nilges supervision\\
+Homology modelling of pilin, structural subunit of N. Meningitidis and N. Gonorrhoeae pili \href{http://science.sciencemag.org/content/331/6018/778}{\color{blue}Article}%\cite{chamot2011posttranslational}
+\newline{}}
+
+% \section{Programming/Informatic skills}
+% \cvitem{Bioinfo tools}{PyMol, VMD, Biopython, GROMACS}
+% \cvitem{Game Engine}{Unity3D, Blender}
+% \cvitem{Langages}{C/C++/C\#, Python, Bash, Javascript, Java, HTML, PHP, SQL, SPARQL, RDF(S), OWL}
+% \cvitem{Database}{MySQL, Oracle, Web Semantic}
+% \cvitem{OS}{MacOSX 10.5-10.10, Linux (Ubuntu,Debian)}
+% \cvitem{Administration}{Nagios, Virtuoso, UMD (from EGI)}
+% \cvitem{Network}{Websocket, Protocole IP/UDP}
+% \cvitem{Softwares}{Microsoft office, Open Office, Adobe Suite (Photoshop, Illustrator, Dreamweaver)}
+
+%\cvcomputer{Langages}{(X)HTML, PHP, CSS, PL/SQL, C/C++, Java, Bash}{}{}
+%\cvcomputer{Base de données}{MySQL, Oracle}{CMS}{Wordpress, Symfony2 (notions)}
+%\cvcomputer{Analyse}{Merise, UML, Design Patterns}{}{}
+%\cvcomputer{Systèmes}{Windows XP/Seven/Server 2003/Server 2008, Linux (Debian)}{}{}
+%\cvcomputer{Administration}{Apache2, BIND, Postfix, Fail2ban, Proxmox (openVZ), Iptables,Nagios}{}{}
+
+% \bibliographystyle{alpha}
+% \bibliography{publications}
+%\cvitem{Plongée}{Diplôme de niveau 1}
+
+\end{document}
